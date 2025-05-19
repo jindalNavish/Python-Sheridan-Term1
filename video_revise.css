@@ -1,0 +1,33 @@
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    float: inline-start;
+    margin-right: 10px;
+}
+
+.username{
+    font-weight: bold;
+}
+
+em{
+    font-style: normal;
+color: red;}
+
+#container{
+    border: 2px solid;
+}
+
+#container p{
+    background-color: yellow;
+}
+
+#container > p{
+    background-color: red;
+}
+
+#container ~ p{
+    background-color:grey;
+}
+
+

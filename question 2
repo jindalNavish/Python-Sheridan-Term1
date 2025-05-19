@@ -1,0 +1,61 @@
+""" a = 6
+b = 2
+c = 3
+f = (b *c) - a
+print(f)
+
+d = 4
+e = 2
+f = 3
+k = (d+e+f)/2
+print(k)
+
+width = 4.25
+length = 8.5
+perimeter = (2 * width) + (2*length)  #wrong formula
+print(perimeter)
+
+balance = 100.10
+balance += 100.10
+balance += 100.10
+
+print(balance)
+print(round(balance, 2))
+
+import math as m  # importing math library to not type the method
+l = m.sqrt(16) 
+print(l)
+print(m.pow(5,4))
+
+p = 16 ** (1/2)
+print(p)
+
+print("Jod i am" +
+      "ha")
+
+score = float(input("Enter your marks:"))
+
+if score >= 90:
+    Letter = "A"
+elif score >= 80:
+    Letter = "B"
+elif score >= 70:
+    Letter = "C"
+elif score >= 60:
+    Letter = "D"
+else:
+    Letter = "F"
+print(f"Your mark letter is {Letter}.") """
+
+""" print("how many times do you want to print hi?")
+num = int(input("how many his do you want to print?"))
+num += 1
+print("-" * 20)
+while num <= 0:
+    print("enter a positive number please")
+    num = int(input("how many hi’s do you want to print?"))
+    num += 1
+for number in range(1, num):
+    print("Hi", number, end='!!')
+    print() """
+    
